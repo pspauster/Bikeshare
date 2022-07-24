@@ -1,0 +1,27 @@
+---
+title: "Explore"
+author: "Patrick Spauster"
+date: "7/24/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(fs)
+library(purrr)
+library(readr)
+```
+
+
+```{r}
+files <- dir_ls("Data/ridership", glob = "*.csv")
+
+data <- map_dfr(files, read_csv)
+
+weather <- read_csv("Data/weather/noaa_2022_01-07.csv")
+```
+
+
+

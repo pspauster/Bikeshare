@@ -1,0 +1,25 @@
+{
+    "id": "0B6F8D50",
+    "path": "~/GitHub/Bikeshare/download-bikshare-data.R",
+    "project_path": "download-bikshare-data.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1658687922730.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "tempName": "Untitled1",
+        "cursorPosition": "17,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1658693983,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1658693983368,
+    "read_only": false,
+    "read_only_alternatives": []
+}
